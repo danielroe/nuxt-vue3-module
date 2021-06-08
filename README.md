@@ -13,13 +13,22 @@
 ## Features
 
 - [x] Client-side webpack support
+- [x] Nuxt features: `asyncData`, `validate`, layouts, middleware, plugins, etc.
+- [x] Vue 3 features: `script setup`, `composables`
 - [ ] Client-side vite support
 - [ ] Server-side support
 
 ## Known limitations and workarounds
 
 - You will need to use `<RouterLink>` instead of `<NuxtLink>`
-- This library overrides your `client.js` template from `@nuxt/vue-app`
+
+**Note**: This library overrides your `client.js` template from `@nuxt/vue-app`
+
+## Not (yet) supported
+
+- new-style `fetch()`
+- `<RouterLink>` in the same component as `script setup`
+- Vue 2 Composition API (either `@vue/composition-api` or `@nuxtjs/composition-api`)
 
 ## Quick setup
 
