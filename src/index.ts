@@ -1,4 +1,5 @@
 import { defineNuxtModule, extendBuild } from '@nuxt/kit'
+import { readFile, writeFile } from 'fs-extra'
 import type { Configuration } from 'webpack'
 import { bold, greenBright } from 'chalk'
 import VueLoaderPlugin from 'vue-loader/dist/pluginWebpack4'
@@ -16,12 +17,15 @@ export default defineNuxtModule({
 
     nuxt.options.cli.badgeMessages.push(greenBright(bold('[Vue 3 compatibility build]')))
 
-    nuxt.hook('build:templates', (templates) => {
-      templates.templatesFiles.forEach((file) => {
+    nuxt.hook('build:templates', async (templates) => {
+      for await (const file of templates.templatesFiles) {
         if (typeof file === 'object' && file.src?.endsWith('template/client.js')) {
+          let nuxtClientSource = await readFile(file.src, 'utf-8')
+          nuxtClientSource = nuxtClientSource.replace('$parent.$children.forEach', '$parent.$children.filter(Boolean).forEach')
+          await writeFile(join(__dirname, './templates/client.js'), nuxtClientSource)
           file.src = join(__dirname, './templates/client.js')
         }
-      })
+      }
     })
 
     nuxt.hook('vite:extend', (ctx) => {

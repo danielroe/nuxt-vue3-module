@@ -19,6 +19,7 @@
 ## Known limitations and workarounds
 
 - You will need to use `<RouterLink>` instead of `<NuxtLink>`
+- This library overrides your `client.js` template from `@nuxt/vue-app`
 
 ## Quick setup
 
