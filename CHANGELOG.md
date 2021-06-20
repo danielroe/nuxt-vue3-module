@@ -1,3 +1,10 @@
+## [0.2.0](https://github.com/danielroe/nuxt-vue3-module/compare/0.1.2...0.2.0) (2021-06-20)
+
+
+### Features
+
+* disable ssr rather than erroring ([1e8d38a](https://github.com/danielroe/nuxt-vue3-module/commit/1e8d38a9141f42eec1e4621d8f15f1da18734ade))
+
 ### [0.1.2](https://github.com/danielroe/nuxt-vue3-module/compare/0.1.1...0.1.2) (2021-06-08)
 
 
