@@ -12,7 +12,8 @@ export default defineNuxtModule({
     nuxt.options.alias.vue = '@vue/compat'
 
     if (nuxt.options.ssr) {
-      console.error('nuxt-vue3 will only work if you set `ssr: false` in your `nuxt.config`')
+      nuxt.options.ssr = false
+      console.info('disabling ssr due to issues with ssr support with vue3 + nuxt2')
     }
 
     nuxt.options.cli.badgeMessages.push(greenBright(bold('[Vue 3 compatibility build]')))
