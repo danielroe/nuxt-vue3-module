@@ -32,7 +32,7 @@
     "test": "yarn lint && yarn build && yarn jest"
   },
   "dependencies": {
-    "@nuxt/kit": "0.6.3",
+    "@nuxt/kit": "0.6.4",
     "@vue/compat": "3.1.2",
     "@vue/compiler-sfc": "3.1.2",
     "@vue/server-renderer": "3.1.2",
