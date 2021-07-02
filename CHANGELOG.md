@@ -1,3 +1,5 @@
+### [0.2.1](https://github.com/danielroe/nuxt-vue3-module/compare/0.2.0...0.2.1) (2021-07-02)
+
 ## [0.2.0](https://github.com/danielroe/nuxt-vue3-module/compare/0.1.2...0.2.0) (2021-06-20)
 
 
