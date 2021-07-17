@@ -40,7 +40,7 @@
     "fs-extra": "9.1.0",
     "upath": "2.0.1",
     "vue": "3.1.5",
-    "vue-loader": "16.3.0",
+    "vue-loader": "16.3.1",
     "vue-server-renderer": "npm:@vue/server-renderer@3.1.5",
     "vue-template-compiler": "npm:@vue/compiler-sfc@3.1.5",
     "vuex": "3.6.2"
