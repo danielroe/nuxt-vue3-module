@@ -1,3 +1,10 @@
+### [0.2.2](https://github.com/danielroe/nuxt-vue3-module/compare/0.2.1...0.2.2) (2021-07-20)
+
+
+### Features
+
+* display vue version ([fc8b191](https://github.com/danielroe/nuxt-vue3-module/commit/fc8b1911880a4afd4d613ff06e2a84ef413b6439))
+
 ### [0.2.1](https://github.com/danielroe/nuxt-vue3-module/compare/0.2.0...0.2.1) (2021-07-02)
 
 ## [0.2.0](https://github.com/danielroe/nuxt-vue3-module/compare/0.1.2...0.2.0) (2021-06-20)
