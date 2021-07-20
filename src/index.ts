@@ -1,4 +1,4 @@
-import { defineNuxtModule, extendBuild } from '@nuxt/kit'
+import { defineNuxtModule, extendBuild, requireModulePkg } from '@nuxt/kit'
 import { readFile, writeFile } from 'fs-extra'
 import type { Configuration } from 'webpack'
 import { bold, greenBright } from 'chalk'
@@ -16,7 +16,9 @@ export default defineNuxtModule({
       console.info('disabling ssr due to issues with ssr support with vue3 + nuxt2')
     }
 
-    nuxt.options.cli.badgeMessages.push(greenBright(bold('[Vue 3 compatibility build]')))
+    const version = requireModulePkg('@vue/compat').version
+
+    nuxt.options.cli.badgeMessages.push(greenBright(bold(`[Vue v${version}]`)))
 
     nuxt.hook('build:templates', async (templates) => {
       for await (const file of templates.templatesFiles) {
