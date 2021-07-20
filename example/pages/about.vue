@@ -3,5 +3,7 @@
   <RouterLink to="/">
     Home page
   </RouterLink>
-  <GlobalComponent />
+  <Suspense>
+    <GlobalComponent />
+  </Suspense>
 </template>
