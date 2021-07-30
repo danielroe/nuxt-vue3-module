@@ -36,7 +36,7 @@
     "@vue/compat": "3.1.5",
     "@vue/compiler-sfc": "3.1.5",
     "@vue/server-renderer": "3.1.5",
-    "chalk": "4.1.1",
+    "chalk": "4.1.2",
     "fs-extra": "9.1.0",
     "upath": "2.0.1",
     "vue": "3.1.5",
