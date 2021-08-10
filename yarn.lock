@@ -13305,10 +13305,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-loader@16.4.1:
-  version "16.4.1"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.4.1.tgz#e09cfaa67b23a50021ecdb5c272203d2c87f161a"
-  integrity sha512-nL1bDhfMAZgTVmVkOXQaK/WJa9zFDLM9vKHbh5uGv6HeH1TmZrXMWUEVhUrACT38XPhXM4Awtjj25EvhChEgXw==
+vue-loader@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.5.0.tgz#09c4e0712466899e34b99a686524f19165fb2892"
+  integrity sha512-WXh+7AgFxGTgb5QAkQtFeUcHNIEq3PGVQ8WskY5ZiFbWBkOwcCPRs4w/2tVyTbh2q6TVRlO3xfvIukUtjsu62A==
   dependencies:
     chalk "^4.1.0"
     hash-sum "^2.0.0"
