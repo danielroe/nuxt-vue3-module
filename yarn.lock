@@ -13250,13 +13250,15 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite-plugin-vue2@1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.7.3.tgz#6c4da246800493283be37b321c2d5041cf9c9f71"
-  integrity sha512-HStclmWA4rQKy6xH1tEniUvoiCAForBZSC6JBO189sB2LoGUhiA7414Cr1RnysDp/ZDnW/PwG+ux+VfXrYP6Ow==
+vite-plugin-vue2@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.8.1.tgz#51d8d3a09575d0d0b24328c9f73dd08c9ae4e504"
+  integrity sha512-arqvNRbo7pYlyflY9U2i7vWOhncLoR6DZQfhC0rf4hF+1riFtwX5n7nIGc6nqr819bpVQSnZ8+4J7aejbA9NfA==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/parser" "^7.13.10"
+    "@babel/plugin-proposal-class-properties" "^7.14.5"
+    "@babel/plugin-proposal-decorators" "^7.14.5"
     "@babel/plugin-transform-typescript" "^7.13.0"
     "@rollup/pluginutils" "^4.1.0"
     "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
