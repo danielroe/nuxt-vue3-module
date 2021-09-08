@@ -2711,10 +2711,10 @@
     "@typescript-eslint/types" "4.25.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vitejs/plugin-legacy@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-legacy/-/plugin-legacy-1.5.2.tgz#4c0b9f1b7ac4b06e19a18a85681914f8d994e150"
-  integrity sha512-b1CaWY/wi7gQZnZaxH+ujPTPb91bEPgnnk7l0WIwxoQtW5UC5MQywRcAbFX+Ise62exXctOMBtsnXKJw2KajXw==
+"@vitejs/plugin-legacy@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-legacy/-/plugin-legacy-1.5.3.tgz#3a2eabef302a6aa4feb2ce3cff6ddf95d573e9e1"
+  integrity sha512-/b2x6dU+BbdW7C7KWxh9kMrVzv1JlUi1ucPQpSzWUUUVJjihbG+GRlpqcvfQ0p/TnAKl2d/VecbTLByVJJHORg==
   dependencies:
     "@babel/standalone" "^7.14.9"
     core-js "^3.16.0"
@@ -9546,12 +9546,12 @@ nuxt-edge@2.16.0-27172816.2ef05373:
     "@nuxt/vue-renderer-edge" "2.16.0-27172816.2ef05373"
     "@nuxt/webpack-edge" "2.16.0-27172816.2ef05373"
 
-nuxt-vite@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/nuxt-vite/-/nuxt-vite-0.2.2.tgz#c03d2abbe9cdf28f6930c5af3a7515496cf20d59"
-  integrity sha512-6wf54XbTmjipcAHarsLcwNe3JuzGRfUwr1nWpfzy1n86c14tT9czkh2BJllTcpLWB1oJhYd32MihPap8/wea2w==
+nuxt-vite@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/nuxt-vite/-/nuxt-vite-0.2.4.tgz#dede42b4877c50afd07c3a3ee87cba9a7add8198"
+  integrity sha512-BG1rJSynm53kGEnaUxcuaWQpm6Ltgt5dq8l6qbknGMvz5vzD5TUcDkHdadXUuln+XGj7GLNYiES7qIcJoCAkrQ==
   dependencies:
-    "@vitejs/plugin-legacy" "^1.5.2"
+    "@vitejs/plugin-legacy" "^1.5.3"
     consola "^2.15.3"
     fs-extra "^10.0.0"
     postcss-import "^14.0.2"
@@ -9561,8 +9561,8 @@ nuxt-vite@0.2.2:
     semver "^7.3.5"
     ufo "^0.7.9"
     upath "^2.0.1"
-    vite "^2.5.1"
-    vite-plugin-vue2 "^1.8.1"
+    vite "^2.5.4"
+    vite-plugin-vue2 "^1.8.2"
 
 nwsapi@^2.2.0:
   version "2.2.0"
@@ -13195,7 +13195,7 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite-plugin-vue2@1.8.2:
+vite-plugin-vue2@1.8.2, vite-plugin-vue2@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.8.2.tgz#7b5fd0f019cba4dc6f5413627c8b70139f09f3fe"
   integrity sha512-qQXLH+yVn5o7cq+KJULyty4OxWKQ3lsvrYx8QkLO78LsM+/r1gEytfcXiqewnvgP7eTkJ5Pd/kHbfDce1Pim/w==
@@ -13222,37 +13222,10 @@ vite-plugin-vue2@1.8.2:
     source-map "^0.7.3"
     vue-template-es2015-compiler "^1.9.1"
 
-vite-plugin-vue2@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.8.1.tgz#51d8d3a09575d0d0b24328c9f73dd08c9ae4e504"
-  integrity sha512-arqvNRbo7pYlyflY9U2i7vWOhncLoR6DZQfhC0rf4hF+1riFtwX5n7nIGc6nqr819bpVQSnZ8+4J7aejbA9NfA==
-  dependencies:
-    "@babel/core" "^7.11.6"
-    "@babel/parser" "^7.13.10"
-    "@babel/plugin-proposal-class-properties" "^7.14.5"
-    "@babel/plugin-proposal-decorators" "^7.14.5"
-    "@babel/plugin-transform-typescript" "^7.13.0"
-    "@rollup/pluginutils" "^4.1.0"
-    "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
-    "@vue/babel-preset-jsx" "^1.2.4"
-    "@vue/component-compiler-utils" "^3.2.0"
-    babel-preset-env "^1.7.0"
-    consolidate "^0.16.0"
-    debug "^4.3.1"
-    fs-extra "^9.0.1"
-    hash-sum "^2.0.0"
-    magic-string "^0.25.7"
-    prettier "^2.0.5"
-    querystring "^0.2.0"
-    rollup "^2.35.1"
-    slash "^3.0.0"
-    source-map "^0.7.3"
-    vue-template-es2015-compiler "^1.9.1"
-
-vite@^2.5.1:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.2.tgz#3963a4ec1e6ecae49359eddfdd67f6cb1e6e07a1"
-  integrity sha512-JK5uhiVyMqHiAJbgBa8rCvpP8bEhAE9dKDv1gCmP+EUP2FSPmEeW3WXlCXauPB3MDa8behPW+ntyNXqnGaxslg==
+vite@^2.5.4:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.5.tgz#995409791d9d16e31890d5c4192fcff5d0b0f78c"
+  integrity sha512-VuPw2sS5j+JzkBQ8Mkhb5GodcGp2YcljwumzFfEraICwMVkTDvh9+noogwtFg+JIHJD5iwpcJhqWIzqIYMKc5Q==
   dependencies:
     esbuild "^0.12.17"
     postcss "^8.3.6"
