@@ -65,7 +65,7 @@
     "lint-staged": "11.1.2",
     "nuxt-edge": "2.16.0-27194414.3e9d7e3e",
     "nuxt-vite": "0.2.4",
-    "release-it": "14.11.5",
+    "release-it": "14.11.6",
     "siroc": "0.16.0",
     "vite-plugin-vue2": "1.8.2"
   },
