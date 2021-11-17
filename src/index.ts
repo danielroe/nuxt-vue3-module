@@ -1,4 +1,4 @@
-import { defineNuxtModule, extendBuild, requireModulePkg } from '@nuxt/kit'
+import { defineNuxtModule, extendWebpackConfig, requireModulePkg } from '@nuxt/kit'
 import { readFile, writeFile } from 'fs-extra'
 import type { Configuration } from 'webpack'
 import { bold, greenBright } from 'chalk'
@@ -41,7 +41,7 @@ export default defineNuxtModule({
       }
     })
 
-    extendBuild((config: Configuration) => {
+    extendWebpackConfig((config: Configuration) => {
       const index = config.plugins!.findIndex(plugin => plugin.constructor.name === 'VueLoaderPlugin')
       if (index < 0) { return }
       config.plugins!.splice(index, 1, new VueLoaderPlugin())
