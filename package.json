@@ -55,7 +55,7 @@
     "@nuxtjs/eslint-config-typescript": "7.0.2",
     "@release-it/conventional-changelog": "3.3.0",
     "@types/fs-extra": "9.0.13",
-    "@types/jest": "27.0.2",
+    "@types/jest": "27.0.3",
     "babel-eslint": "latest",
     "babel-jest": "27.3.1",
     "eslint": "8.2.0",
