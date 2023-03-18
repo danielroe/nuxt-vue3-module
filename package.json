@@ -33,16 +33,16 @@
   },
   "dependencies": {
     "@nuxt/kit": "0.7.0-edge",
-    "@vue/compat": "3.2.22",
-    "@vue/compiler-sfc": "npm:@vue/compiler-sfc@3.2.20",
-    "@vue/server-renderer": "npm:@vue/server-renderer@3.2.20",
+    "@vue/compat": "3.2.47",
+    "@vue/compiler-sfc": "npm:@vue/compiler-sfc@3.2.47",
+    "@vue/server-renderer": "npm:@vue/server-renderer@3.2.47",
     "chalk": "4.1.2",
     "fs-extra": "9.1.0",
     "upath": "2.0.1",
-    "vue": "3.2.20",
+    "vue": "3.2.47",
     "vue-loader": "16.8.1",
-    "vue-server-renderer": "npm:@vue/server-renderer@3.2.20",
-    "vue-template-compiler": "npm:@vue/compiler-sfc@3.2.20",
+    "vue-server-renderer": "npm:@vue/server-renderer@3.2.47",
+    "vue-template-compiler": "npm:@vue/compiler-sfc@3.2.47",
     "vuex": "3.6.2"
   },
   "devDependencies": {
