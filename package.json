@@ -36,7 +36,7 @@
     "@vue/compat": "3.2.22",
     "@vue/compiler-sfc": "npm:@vue/compiler-sfc@3.2.20",
     "@vue/server-renderer": "npm:@vue/server-renderer@3.2.20",
-    "chalk": "4.1.2",
+    "chalk": "5.3.0",
     "fs-extra": "9.1.0",
     "upath": "2.0.1",
     "vue": "3.2.20",
@@ -70,7 +70,7 @@
     "vite-plugin-vue2": "1.9.0"
   },
   "peerDependencies": {
-    "chalk": "^3.0.0 || ^4.0.0",
+    "chalk": "^3.0.0 || ^4.0.0 || ^5.0.0",
     "consola": "^2.15.0",
     "prettier": "^2.1.2"
   },
